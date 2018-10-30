@@ -17,9 +17,9 @@ things = {
 def thing_do(f,action):
   print('thing_do')
   print(action)
-  if action is 'on':
+  if action is "on":
     FloorLamp().turnOn()
-  elif action is 'off':
+  elif action is "off":
     FloorLamp().turnOff()
   else:
     return 400
